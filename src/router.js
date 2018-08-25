@@ -2,7 +2,7 @@ import VueRouter from 'vue-router'
 import { Landing, Privacy, TermsAndConditions } from './components'
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   base: __dirname,
   routes: [
     { path: '/', component: Landing },
