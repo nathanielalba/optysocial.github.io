@@ -1,0 +1,32 @@
+#landing {
+ display: flex;
+ flex: 1;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 100vh; 
+}
+
+#header {
+  font-weight: 600;
+  font-size: 1.4em;
+  margin: 1em 0;
+}
+
+.text {
+  font-size: 12pt;
+  color: #02285E;
+  margin: 1em 0;
+}
+
+.sub-header {
+  font-size: 14pt;
+  margin: .7em 0;
+  color: #02265E;
+  font-weight: 600;
+}
+
+ul {
+  list-style-type: circle;
+  margin-left: 2em;
+}
